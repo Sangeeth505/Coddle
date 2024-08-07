@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.services {
+  text-align: center;
+  p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    color: #5E6282;
+    margin-bottom: 20px !important;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 50px;
+    font-family: Volkhov;
+    font-weight: bold;
+    color: #14183E;
+    @media (max-width: 991.98px) {
+    }
+  
+    @media (max-width: 768px) {
+    }
+    @media (max-width: 476px) {
+    font-size: 30px;
+    }
+  }
+  .top-rigt-img{
+    margin: -131px -70px 0px 906px;
+
+    @media (max-width: 991.98px) {
+      margin: -131px -55px 0px 617px;
+
+    }
+    @media (max-width: 768px) {
+      margin: 0;
+    }
+  }
+
+  .service-card {
+    border: none;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: none;
+    width: fit-content;
+
+    &.hovered {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+    @media (max-width: 991.98px) {
+      width: initial;
+    }
+  
+    @media (max-width: 768px) {
+      width: initial;
+    }
+    @media (max-width: 476px) {
+      width: initial;
+    }
+
+    .card-img-top {
+      width: 80px;
+      height: 80px;
+      margin: 0 auto 40px;
+      object-fit: contain;
+    }
+
+    .card-body {
+      padding: 0;
+
+      .card-title {
+        font-size: 20px;
+        font-family: Open Sans;
+        font-weight: bold;
+        margin-bottom: 10px;
+        color: #1E1D4C;
+      }
+
+
+      .card-text {
+        font-size: 16px;
+        color: #5E6282;
+        width: 191px;
+        @media (max-width: 991.98px) {
+          width: initial;
+        }
+      
+        @media (max-width: 768px) {
+          width: initial;
+        }
+        @media (max-width: 476px) {
+          width: initial;
+        }
+      }
+    }
+  }
+  .serv-border{
+    border: 1px solid #DF6951;
+    width: 70px;
+    height: 70px;
+    background: #DF6951;
+    border-radius: 20px 0px 10px 0px;
+    margin: -38px 1px 0px -24px;
+  }
+}

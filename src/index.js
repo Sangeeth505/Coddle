@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import App from './App';
+import { Helmet } from 'react-helmet';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Helmet>
+      <link 
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" 
+        rel="stylesheet" 
+      />
+    </Helmet>
     <App />
   </React.StrictMode>
 );

@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+
+.top-destinations {
+  padding: 5rem 0;
+  background-color: white;
+
+  text-align: center;
+
+  p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    color: #5E6282;
+    margin-bottom: 20px !important;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 50px;
+    font-family: Volkhov;
+    font-weight: bold;
+    color: #14183E;
+
+    @media (max-width: 991.98px) {}
+
+    @media (max-width: 768px) {}
+
+    @media (max-width: 476px) {
+      font-size: 30px;
+    }
+  }
+
+
+  .card {
+    border: none;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    .card-img {
+      width: 100%;
+      height: 441px;
+      object-fit: cover;
+      object-position: center;
+    }
+
+    .card-body {
+      text-align: start;
+    }
+    .card-text {
+      font-size: 16px;
+      font-weight: medium;
+      color: #5E6282;
+    }
+    
+    .card-titles {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 1rem;
+
+      .name {
+        text-align: left;
+        font-family: Poppins;
+        font-size: 18px;
+        color: #5E6282;
+      }
+
+      .price {
+        text-align: right;
+        font-family: Poppins;
+        font-size: 18px;
+        color: #5E6282;
+      }
+    }
+  }
+  .arrow-ic {
+    color: black;
+    padding-right: 6px;
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 2rem;
+    }
+  }
+  .card-main {
+    margin: 0px -78px 0px 28px ;
+
+    @media (max-width: 991.98px) {
+      margin: 0px 0px 0px 0px 
+    }
+
+    @media (max-width: 768px) {
+      margin: 0px 0px 0px 0px 
+    }
+
+  }
+  .roll-design-img {
+    width: 100%;
+    max-width: 300px;
+    height: 270px;
+    margin-top: 200px;
+    margin-left: 30px;
+
+    @media (max-width: 991.98px) {
+      margin-right: 20px;
+    }
+  
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 2rem;
+      width: 100%;
+    }
+
+    .roll-design-img {
+      display: none;
+    }
+  }
+
+  @media (min-width: 769px) {
+    .roll-design-img {
+      display: block; 
+    }
+  }
+}

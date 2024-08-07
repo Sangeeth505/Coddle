@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;600&display=swap');
+
+.booking-steps {
+  padding: 5rem 0;
+  .main-book-sec-two {
+    margin-top: 30px;
+
+    @media (max-width: 991.98px) {
+      margin-top: 100px;
+    }
+    @media (max-width: 768px) {
+      margin-top: 100px;
+    }
+  }
+
+  p{
+    font-size: 18px;
+    font-family: Poppins;
+    color: #5E6282;
+    font-weight: 500;
+  }
+  h2 {
+    font-family: Volkhov;
+    margin-bottom: 2rem;
+    font-size: 50px;
+    color: #14183E;
+
+    @media (max-width: 991.98px) {
+      font-size: 34px;
+    }
+    @media (max-width: 768px) {
+      font-size: 37px;
+    }
+
+  }
+  h3 {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-family: Poppins;
+    color: #5E6282;
+    font-weight: bold;
+  }
+
+  .book-p {
+    font-size: 16px;
+    margin-bottom: 1rem;
+    font-family: Poppins;
+    color: #5E6282;
+    width: 330px;
+  }
+
+  .step {
+    text-align: center;
+    margin-bottom: 3rem;
+
+    
+  }
+  .book-row {
+    display: block;
+  }
+  .book-main {
+    display: flex;
+  }
+  .book-ic {
+    width: 60px;
+    height: 60px;
+    margin: 11px 20px 0px 0px ;
+  }
+
+  @media (max-width: 768px) {
+    .step {
+      margin-bottom: 2rem;
+    }
+  }
+  .book-img-card {
+    padding: 25px 25px 25px 25px;
+  }
+  .card {
+    width: 390px;
+    box-shadow: 27px -39px 91px -38px #59B1E6;
+    border: none;
+    border-radius: 40px;
+    @media (max-width: 991.98px) {
+      width: 90%;
+    }
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+    .book-titel-two{
+      font-size: 18px;
+      font-family: Poppins;
+      font-weight: 500;
+      color: #080809;
+    }
+    .book-text-two {
+      font-size: 16px;
+      font-family: Poppins;
+      font-weight: 500;
+    }
+
+  }
+  .book-icon-sec{
+    display: flex;
+
+    .icon-sec{
+      width:55px;
+      padding-right:12px;
+    }
+  }
+  .book-bottom-sec{
+    display: flex;
+    margin-top: 30px;
+
+    .btm-icon-sec {
+      width:20px;
+      margin: 0px 8px 0px 8px;
+    }
+    .text-btm-sec{
+      font-size: 16px;
+      margin-right: 160px;
+
+      @media (max-width: 768px) {
+        font-size: 8px;
+      }
+    }
+    .btm-icon-sectwo{
+      width:20px;
+      height: 20px;
+    }
+  
+  }
+  .center-sec{
+    width: 250px;
+    height: 90px;
+    
+  }
+  .down-card{
+    border: none;
+    margin: -164px 0px 0px 214px;
+    width: 266px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+    @media (max-width: 991.98px) {
+      margin: -100px 0px 0px 330px;
+    }
+    @media (max-width: 768px) {
+      margin: -90px 0px 0px 140px;
+    }
+  }
+}
